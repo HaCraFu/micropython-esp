@@ -10,10 +10,10 @@ color_on = (20,20,0)
 iLed = 0
 
 while True:
-    for _ in range(len(np)):
+    for i in range(len(np)):
         np[iLed] = color_off
         iLed += 1
-        if iLed > len(np):
+        if iLed >= len(np):
             iLed = 0
         np[iLed] = color_on
         np.write()
