@@ -154,7 +154,7 @@ while True:
 
 ## Touchspiel
 
-das Licht läuft hin und zurück: Am Anfang muss der Tocuhpin berüht werden, am Ende nicht!
+das Licht läuft hin und zurück: Am Anfang muss der Touchpin berüht werden, am Ende nicht!
 
 ```python
 from machine import Pin, TouchPad
